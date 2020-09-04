@@ -352,6 +352,10 @@ public class Game {
 			stage.hide();
 		});
 	}
+	
+	//this segment consists of three methods created solely to demonstrate different approaches to multi-threading in javafx-as requested by my advisor
+	
+	
 	//this method displays damage taken by node in an animation using multi-threading
 	private void displayDamage(String color,int dmg,Pane node) {
 		new Thread(()->{
